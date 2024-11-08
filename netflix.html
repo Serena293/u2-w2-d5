@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/netflix.css" />
   </head>
   <body class="bg-dark text-light">
     <header>
@@ -62,7 +63,7 @@
               />
               <!-- controlla colore icona -->
               <button
-                class="btn btn-link d-flex text-light"
+                class="btn btn-link d-flex text-light icon"
                 fill="currentColor"
                 type="submit"
               >
@@ -130,71 +131,420 @@
       </div>
 
       <section class="my-4">
-        <h3 class="fs-3">Trending Now</h2>
+        <h3 class="fs-3">Trending Now</h3>
       </section>
-     
-      
+
       <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="d-flex">
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media0.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media0.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media1.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media2.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media2.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media3.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media4.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media5.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media5.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
           </div>
           <div class="carousel-item">
             <div class="d-flex">
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media6.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media7.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media7.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media8.webp" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media8.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media9.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media9.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media10.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media10.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
               <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
-                <img src="./assets/media/media11.jpg" class="d-block w-100" alt="...">
+                <img
+                  src="./assets/media/media11.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      
-      
-      
+
+      <section class="my-4">
+        <h3 class="fs-3">Watch It Again</h3>
+      </section>
+      <!-- cambia img -->
+
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media0.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media2.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media5.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media7.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media8.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media9.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media10.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media11.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section class="my-4">
+        <h3 class="fs-3">New Releases</h3>
+      </section>
+
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media0.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media2.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media3.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media4.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media5.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex">
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media6.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media7.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media8.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media9.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media10.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-6 col-12 p-2">
+                <img
+                  src="./assets/media/media11.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
-    <footer></footer>
+    <footer class="text-muted">
+      <div class="d-flex justify-content-center">
+        <!-- Social Media Icons -->
+        <div class="d-flex">
+          <img src="./assets/Icons/facebook.svg" class="m-1" />
+          <img src="./assets/Icons/instagram.svg" class="m-1" />
+          <img src="./assets/Icons/twitter.svg" class="m-1" />
+          <img src="./assets/Icons/youtube.svg" class="m-1" />
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center mt-3">
+        <div class="d-flex flex-column m-2">
+          <a href="#" class="text-secondary text-decoration-none"
+            >Audio and Subtitle</a
+          >
+          <a href="#" class="text-secondary text-decoration-none"
+            >Media Center</a
+          >
+          <a href="#" class="text-secondary text-decoration-none">Privacy</a>
+          <a href="#" class="text-secondary text-decoration-none">Contact Us</a>
+        </div>
+
+        <div class="d-flex flex-column m-2">
+          <a href="#" class="text-secondary text-decoration-none"
+            >Audio Description</a
+          >
+          <a href="#" class="text-secondary text-decoration-none"
+            >Investor Relations</a
+          >
+          <a href="#" class="text-secondary text-decoration-none"
+            >Legal Notices</a
+          >
+        </div>
+
+        <div class="d-flex flex-column m-2">
+          <a href="#" class="text-secondary text-decoration-none"
+            >Help Center</a
+          >
+          <a href="#" class="text-secondary text-decoration-none">Jobs</a>
+          <a href="#" class="text-secondary text-decoration-none"
+            >Cookies Preferences</a
+          >
+        </div>
+
+        <div class="d-flex flex-column m-2">
+          <a href="#" class="text-secondary text-decoration-none">Gift Cards</a>
+          <a href="#" class="text-secondary text-decoration-none"
+            >Terms of Use</a
+          >
+          <a href="#" class="text-secondary text-decoration-none"
+            >Corporate Information</a
+          >
+        </div>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
