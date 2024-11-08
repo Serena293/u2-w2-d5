@@ -12,26 +12,26 @@
     />
   </head>
   <body class="bg-dark">
-    <div class="d-flex justify-content-center align-items-center min-vh-100">
+    <div class="d-flex justify-content-center">
       <main class="text-light p-5 w-100">
         <section class="container">
-          <h1 class="justify-content-start">Edit Profile</h1>
-          <hr />
           <div class="row">
-            <!-- Image and form side by side -->
-            <div class="col-12 col-md-4 text-center">
+            <h1 class="justify-content-start">Edit Profile</h1>
+            <hr />
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4 text-center m-sm-2">
               <img src="./assets/kids_icon.png" class="w-50" />
             </div>
             <div class="col-12 col-md-8">
               <form>
-                <div><p class="bg-secondary px-2">Strive Student</p></div>
+                <div><p class="bg-secondary px-2 my-4">Strive Student</p></div>
 
                 <p class="fs-2 text-secondary">Language:</p>
-                <ul class="navbar-nav align-self-center mx-5">
+                <ul class="navbar-nav">
                   <li class="nav-item dropdown">
                     <button
-                      class="btn btn-link nav-link dropdown-toggle text-light border border-1 border-light p-1"
-                      id="genreDropdown"
+                      class="btn btn-link nav-link dropdown-toggle text-secondary border border-1 border-secondary p-1"
                       type="button"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
@@ -60,12 +60,13 @@
                 </button>
                 <hr />
                 <p class="fs-2">Autoplay controls</p>
-                <div>
-                  <input type="checkbox" id="nextEpisode" /><label for="nextEpisode"
+                <div class="d-flex gap-3">
+                  <input type="checkbox" id="nextEpisode" /><label
+                    for="nextEpisode"
                     >Autoplay next episode in a series on all device.</label
                   >
                 </div>
-                <div>
+                <div class="d-flex gap-3">
                   <input type="checkbox" id="preview" /><label for="preview"
                     >Autoplay next episode in a series on all device.</label
                   >
@@ -75,9 +76,21 @@
           </div>
           <hr />
           <div class="d-flex justify-content-between">
-            <button class="bg-dark border border-1 border-secondary p-2 text-secondary">Save</button>
-            <button class="bg-dark border border-1 border-secondary p-2 text-secondary">Cancel</button>
-            <button class="bg-dark border border-1 border-secondary p-2 text-secondary">Delete Profile</button>
+            <button
+              class="bg-dark border border-1 border-secondary p-2 text-secondary btn"
+            >
+              Save
+            </button>
+            <button
+              class="bg-dark border border-1 border-secondary p-2 text-secondary btn"
+            >
+              Cancel
+            </button>
+            <button
+              class="bg-dark border border-1 border-secondary p-2 text-secondary btn"
+            >
+              Delete Profile
+            </button>
           </div>
         </section>
       </main>

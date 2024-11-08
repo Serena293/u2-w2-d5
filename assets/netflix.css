@@ -1,2 +1,4 @@
-.icon{color: white;
-}
+.social-icon{width:25px;
+filter: contrast(0);}
+
+.icon{filter: contrast(0);}
